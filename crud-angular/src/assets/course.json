@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "1",
+        "name": "Angular",
+        "category": "Front End"
+    },
+    {
+        "_id": "2",
+        "name": "C-Sharp",
+        "category": "Back End"
+    },
+    {
+        "_id": "3",
+        "name": "PHP",
+        "category": "Back End"
+    },
+    {
+        "_id": "4",
+        "name": "Figma",
+        "category": "UX Designer"
+    },
+    {
+        "_id": "5",
+        "name": "React",
+        "category": "Front End"
+    },
+    {
+        "_id": "6",
+        "name": "Kotlin",
+        "category": "Mobile"
+    },
+    {
+        "_id": "7",
+        "name": "Ionic",
+        "category": "Mobile"
+    },
+    {
+        "_id": "8",
+        "name": "Java",
+        "category": "Back End"
+    },
+    {
+        "_id": "9",
+        "name": "Python",
+        "category": "Back End"
+    },
+    {
+        "_id": "10",
+        "name": "Vue",
+        "category": "Front End"
+    }
+]

@@ -6,6 +6,7 @@ import { AngularMaterialModule } from '../shared/angular-material/angular-materi
 
 import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { CoursesComponent } from './courses/courses.component';
     CommonModule,
     CoursesRoutingModule,
     AngularMaterialModule,
+    SharedModule,
   ]
 })
 export class CoursesModule { }

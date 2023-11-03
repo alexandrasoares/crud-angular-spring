@@ -4,23 +4,22 @@ import { CommonModule } from '@angular/common';
 // Material
 import { AngularMaterialModule } from '../shared/angular-material/angular-material.module';
 
-import { CoursesRoutingModule } from './courses-routing.module';
-import { CoursesComponent } from './courses/courses.component';
 import { SharedModule } from '../shared/shared.module';
-import { CourseFormComponent } from './course-form/course-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+
+import { ExemplesItensComponent } from './exemples-itens/exemples-itens.component';
+import { ExemplesRoutingModule } from './exemples-routing.module';
 
 @NgModule({
   declarations: [
-    CoursesComponent,
-    CourseFormComponent
+    ExemplesItensComponent,
   ],
   imports: [
     CommonModule,
-    CoursesRoutingModule,
+    ExemplesRoutingModule,
     AngularMaterialModule,
     SharedModule,
     ReactiveFormsModule,
   ]
 })
-export class CoursesModule { }
+export class ExemplesModule { }

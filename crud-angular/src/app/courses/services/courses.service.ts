@@ -19,4 +19,7 @@ export class CoursesService {
   listCourses() {
     return this.httpClient.get<CourseInterface[]>(this.API).pipe(first(), delay(5000), tap(courses => console.log(courses)));
   }
+
+  save(record: CourseInterface) {
+       }
 }
